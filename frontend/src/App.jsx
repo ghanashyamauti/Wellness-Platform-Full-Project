@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Calendar, Clock, User, LogOut, Home, BookOpen, Heart, Shield } from 'lucide-react';
 
-const API_URL = "https://web-production-2da4a.up.railway.app/api";
+const API_URL = "http://localhost:8000/api";
 
 
 const App = () => {
